@@ -12,9 +12,9 @@ Input the 4-bit data. As 2<sup>4</sup>= 16 combinations are possible so resoluti
 
 | 4 bit data | Angle values |
 
-|   0000     |   0°/360°    | 
+|   0000  |   0°/360° | 
 
-|   0001     |    22.5°     |
+|   0001  |    22.5°  |
 
 
 
