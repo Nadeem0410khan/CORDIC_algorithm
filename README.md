@@ -29,7 +29,7 @@ Input the 4-bit data. As 24= 16 combinations are possible so resolution of 360°
 ### Features:
 
 The angle coverage by CORDIC algorithm is (0°-90°), and cannot cover (0°-360°), which limits the calculation range of the algorithm. The angles which lie on second, third, fourth quadrant can be converted to first quadrant by flipping the angles. Then using the iterative CORDIC operations to evaluate sin, cos magnitude values. Further with the use of 2’s compliment the perfect sign is provided to the magnitude value of angle of respective quadrants. This design produces high throughput and less latency for continuous bits of input.
- The worst-case error of sin, cos values obtained from above implementation is  units.
+ The worst-case error of sin, cos values obtained from above implementation is 2.32X10<sup>-5</sup> units.
 
 ### Formatting the output:
 
