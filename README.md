@@ -7,6 +7,8 @@ CORDIC has two modes of operation Vectoring and Rotation. This code uses Rotatio
 ### Inputting the value :
 
 Input the 4-bit data. As 2<sup>4</sup>= 16 combinations are possible so resolution of 360°/16= 22.5° is available (table) and accordingly the angle is chosen from the table mentioned below and the sine and cosine value of the same is obtained at the end of iterations.
+### Digital implementation of proposed algorithm:
+![digital implementation](https://imgur.com/BjNJWqv.png)
 
 ### Table:
 
